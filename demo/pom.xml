@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.revature</groupId>
+  <groupId>com.example</groupId>
   <artifactId>demo</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1</version>
 
   <name>demo</name>
   <!-- FIXME change it to the project's website -->
@@ -25,16 +25,26 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
+    <!-- https://mvnrepository.com/artifact/io.javalin/javalin -->
+<dependency>
     <groupId>io.javalin</groupId>
     <artifactId>javalin</artifactId>
     <version>5.3.1</version>
-  </dependency>
-  <dependency>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.14.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-simple</artifactId>
     <version>2.0.3</version>
-  </dependency>
+</dependency>
+
+
   </dependencies>
 
   <build>
